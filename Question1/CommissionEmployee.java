@@ -1,8 +1,8 @@
 public class CommissionEmployee extends Employee{
-    private float commissionRate;
-    private float grossSales;
+    private double commissionRate;
+    private double grossSales;
     
-    public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, float commissionRate, float grossSales){
+    public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double commissionRate, double grossSales){
         super(firstName, lastName, socialSecurityNumber);
         this.commissionRate = commissionRate;
         this.grossSales = grossSales;
@@ -16,11 +16,11 @@ public class CommissionEmployee extends Employee{
         this.grossSales = grossSales;
     }
 
-    public float getCommissionRate(){
+    public double getCommissionRate(){
         return commissionRate;
     }
 
-    public float getGrossSales(){
+    public double getGrossSales(){
         return grossSales;
     }
 }

@@ -6,6 +6,5 @@ class Main{
         HourlyEmployee MaryQuinn = new HourlyEmployee("Mary", "Quinn", "333-33-3333", 19, 47);
         CommissionEmployee NicoleDior = new CommissionEmployee("Nicole", "Dior", "444-44-4444", 0.15, 50000);
         CommissionEmployee MahnazVaziri = new CommissionEmployee("Mahnaz", "Vaziri", "777-77-7777", 0.22, 40000);
-
     }
 }
